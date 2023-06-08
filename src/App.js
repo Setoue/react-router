@@ -1,5 +1,5 @@
 
-import './App.css';
+import './css/App.css';
 
 //config react router 
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"; //tem que instalar o react-router-dom

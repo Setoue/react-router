@@ -1,8 +1,7 @@
 
 import { useParams, Link } from "react-router-dom"
 
-
-import './Home.css';
+import '../css/Home.css';
 
 import { useFetch } from '../hooks/useFetch';
 
