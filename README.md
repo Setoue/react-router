@@ -2,11 +2,10 @@
  
  <h2> :hammer: Exibindo funcionalidades</h2>
  
-  https://github.com/Setoue/react-routes/assets/79421646/464ffcb7-2865-4dd0-acbd-e01a28c097c1
+
+https://github.com/Setoue/react-router/assets/79421646/a212a8a5-65de-4d27-b090-5aca964a5afe
 
   
-  
- 
  <ul>
  <h3> 🛠️ Hooks e Componentes que foram utilizados</h3>
  <li>Rotas dinâmicas</li>
