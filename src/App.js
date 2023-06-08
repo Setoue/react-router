@@ -2,7 +2,7 @@
 import './App.css';
 
 //config react router 
-import { BrowserRouter, Routes, Route } from "react-router-dom"; //tem que instalar o react-router-dom
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"; //tem que instalar o react-router-dom
 
 //components
 import Navbar from './components/Navbar'
@@ -30,7 +30,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} /> {/*Colocar o elemento(pages) e o path(caminho) */}
+          <Route path="/about" element={<About />} />
+          {/*Colocar o elemento(pages) e o path(caminho) */}
 
           {/*Rota dinamica */}
           <Route path="/products/:id" element={<Product />} />
@@ -44,6 +45,9 @@ function App() {
           {/*No match route */}
           <Route path="*" element={<NotFound />} />
 
+          {/*Redirect */}
+          <Route path='/sobre' element={<Navigate to="/about" />} />
+          {/*Quando o usuario digitar /sobre na url ele vai ser redirecionado para /about */}
         </Routes>
       </BrowserRouter>
     </div>
